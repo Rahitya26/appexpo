@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>"Vehicle Aid" a store for best mechanic services and deals</title>
+</head>
+<body>
+<!--<img src="mech.jpg" class="mch">-->
+  <video autoplay muted loop plays-inline class="mch">
+    <source src="assets/car.mp4">
+  </video>
+<div class="mynav" id="top1">
+  <div class="leftnav">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"><img src="assets/options.svg" height="35px"></button>
+
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Welcome to Vehicle Aid</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a class="abody" href="#home">Home</a>
+      <a class="abody" href="cart.html">Cart</a>
+      <a class="abody" href="help.html">Help/Customer care</a>
+    </div>
+  </div>
+
+  <img src="assets/tool.png" class="logo">
+    <h1 class="hdr">Vehicle Aid</h1>  
+  </div>
+  <div class="rightnav">
+    <input type="text" placeholder="Enter your location" class="loc">
+    <img src="assets/pinpoint.png" class="pin">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="assets/account.png" class="pin">
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="signup.html">Sign-up</a></li>
+        <li><a class="dropdown-item" href="login.html">Log-in</a></li>
+        <li><a class="dropdown-item" href="account.html">Account</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <!-- First sdle-->
+
+  <div class="firstslide" id="home">
+<div class="mninfo">
+  <p class="first_sl_info">Access our services</p>
+  <p class="inplaceholder"><span class="head1">Vehicle Aid</span> is your best choice for car services and repair needs,<br>we provide reliable and consistent services</p>
+  <button class="b1"><a class="anchor_btn" href="#shops">Service centres</a></button>
+</div>
+  </div>
+
+  <!--second slide-->
+  <div class="secondslide" id="shops">
+
+    <h2 class="nrby">Nearby shops</h2>
+    <div class="shpinfo">
+      <table class="shptble">
+        <tr>
+          <td><h5>Ramesh service</h5><br><p>Cherlapalli,Hyderabad,50098<br>Contact:9224557891</p><br><button class="ramesh shop">Select</button></td>
+          <td><img src="assets/shp1.jpg"><br><p>Rating:⭐⭐⭐⭐[67]</p><br></td>
+
+        </tr><hr>
+        <tr>
+          <td><h5>Suresh bike point</h5><br><p>Medipalli,Hyderabad,50095<br>Contact:1234567894</p><br><button class="suresh shop">Select</button></td>
+          <td><img src="assets/shp2.jpg"><br><p>Rating:⭐⭐⭐[32]</p><br></td>
+        </tr><hr>
+
+        <tr>
+          <td><h5>Venkateshwara mechanic</h5><br><p>Narapally,Hyderabad,50092<br>Contact:8234522843</p><br><button class="venkat shop">Select</button></td>
+          <td><img src="assets/shp3.jpg"><br><p>Rating:⭐⭐⭐⭐⭐[80+]</p><br></td>
+        </tr>
+      </table>
+      <hr><hr>
+    </div>
+
+    <!--FOOTER-->
+    <div class="ftr">
+      <div class="leftftr">
+        <p>© 2024 Vehicle Aid, Inc</p>
+    </div>
+      <div class="rightftr">
+        <img src="assets/fb.png">
+        <a href="https://www.instagram.com/_sunny_1226?igsh=MXQxbnM5NWRrY3hwbQ=="> <img src="assets/ig.png"></a>
+        <img src="assets/x.png">
+      </div>
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

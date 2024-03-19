@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>"Vehicle Aid" a store for best mechanic services and deals</title>
+  <style>
+    .subhd{
+      padding: 10px;
+      background-image:url(assets/car1.jpg);
+      background-size: cover;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      color:white;
+      position:absolute;
+      top:75px;
+      height: 250px;
+    }
+    .mch{
+      top:-500px;
+    }
+    .subhd h1{
+      font-weight:bold;
+    }
+    .flex-cont{
+      margin-top: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 15px;
+      gap: 30px;
+    }
+    .flx-first{
+      width: 30%;
+      height:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap:2px;
+    }
+    .social-flex img{
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+<div class="mynav" id="top1">
+  <div class="leftnav">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"><img src="assets/options.svg" height="35px"></button>
+
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Welcome to Vehicle Aid!</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a class="abody" href="index.html">Home</a>
+      <a class="abody" href="cart.html">Cart</a>
+      <a class="abody" href="help.html">Help/Customer care</a>
+    </div>
+  </div>
+
+  <img src="assets/tool.png" class="logo">
+    <h1 class="hdr">Vehicle Aid!</h1>  
+  </div>
+  <div class="rightnav">
+    <input type="text" placeholder="Enter your location" class="loc">
+    <img src="assets/pinpoint.png" class="pin">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="assets/account.png" class="pin">
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="signup.html">Sign-up</a></li>
+        <li><a class="dropdown-item" href="login.html">Log-in</a></li>
+        <li><a class="dropdown-item" href="account.html">Account</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div class="subhd">
+  <h1>Help/Contact us</h1>
+  </div>
+  <div class="flex-cont">
+<div class="flx-first">
+<img src="assets/route.png">
+<h3>Address</h3>
+  <p>Vehicle Aid! Building no.10,Arena towers Pvt Ltd.,</p><p>Beide Bhadra's Grand, Uppal,</p><p>Hyderabad,500098</p>
+</div>
+<div class="flx-first">
+<img src="assets/mail.png">
+<h3>Mail us</h3>
+  <p>karamchedurahitya@gmail.com</p>
+  <p>kamsaninitinreddy@gmail.com</p>
+  <p>(7am-10pm)</p>
+</div>
+<div class="flx-first">
+<img src="assets/socialmedia.png">
+<h3>Social media</h3>
+  <div class="social-flex">
+    <a href="#"><img src="assets/fb-black.png"></a>
+    <a href="https://www.instagram.com/_sunny_1226?igsh=MXQxbnM5NWRrY3hwbQ=="><img src="assets/ig-black.png"></a>
+    <a href="#"><img src="assets/x-black.png"></a>
+  </div>
+  </div>
+  </div>
+  <div class="ftr">
+    <div class="leftftr">
+      <p>© 2024 Vehicle Aid!, Inc</p>
+  </div>
+    <div class="rightftr">
+      <img src="assets/fb.png">
+      <a href="https://www.instagram.com/_sunny_1226?igsh=MXQxbnM5NWRrY3hwbQ=="> <img src="assets/ig.png"></a>
+      <img src="assets/x.png">
+    </div>
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  </html>

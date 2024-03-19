@@ -1,0 +1,255 @@
+*{
+  font-family:Montserrat;
+}
+
+
+.btn-primary {
+  background-color:white;
+  border-color:transparent;
+}
+.head1{
+  color:rgb(210, 10, 10);
+  font-size:60px;
+  font-weight: bolder;
+}
+body{
+  scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.ftr{
+  margin-top:200px;
+  padding: 40px;
+  width: 100%;
+  background-color: #31363F;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftr img{
+  height: 30px;
+}
+
+
+.mch{
+  position:absolute;
+  top:0;
+  left: 0;
+  z-index:-1;
+  width: 100%;
+}
+.b1{
+  font-weight: bold;
+  text-align: center;
+  margin-left:50px;
+  background-color: rgb(210, 10, 10);
+  border-color: rgba(255, 255, 255, 0);
+  color:white;
+  padding:12px;
+  width: 200px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  box-shadow: none;
+  outline:none;
+}
+
+.b1:hover{
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.offcanvas-title{
+  color:black;
+  font-family:Montserrat;
+  font-weight:bolder;
+}
+.btn-secondary{
+  background-color: transparent;
+  border: transparent;
+}
+
+
+.anchor_btn{
+  text-decoration: none;
+  color:white;
+}
+.second_h2{
+  text-align:center;
+  padding: 15px;
+  font-family: Montserrat;
+}
+
+.carsl_hd{
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight:bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top:265px;
+  text-shadow: 10px 10px 5px black;
+}
+.csl_hd2{
+  color: rgb(210, 10, 10);
+}
+a{
+  text-decoration: none;
+}
+.shop{
+  padding: 8px;
+  width:120px;
+  border-radius: 8px;
+}
+.shop:hover{
+  transition-duration: 0.3s;
+  background-color:#C2C2C2;
+}
+.offcanvas{
+  background-image: linear-gradient(60deg,#003A6F,white);
+}
+
+td{
+  padding: 20px;
+}
+
+.firstslide{
+  position:relative;
+}
+.secondslide{
+ position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top:500px;
+  padding: 15px;
+}
+.secondslide table{
+  width: 100%;
+  margin-top: 50px;
+}
+.secondslide tr:hover{
+  transition-duration: 0.6s;
+  box-shadow: 3px 6px 10px black;
+}
+
+.shpinfo img{
+  height: 150px;
+}
+
+.secondslide td{
+  text-align: center;
+}
+
+.shpsnrme{
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+}
+.nrby
+{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+}
+
+.first_sl_info{
+  font-size:50px;
+  margin-left:50px;
+  margin-top:100px;
+  font-family: Montserrat;
+  font-weight:700;
+  color:white;
+}
+.inplaceholder{
+  color:white;
+  margin-left:50px;
+  font-size:20px;
+}
+
+.btn-primary:hover{
+  background-color:white;
+  border-color:white;
+}
+.abody{
+  text-decoration:none;
+  color:black;
+  font-family:Montserrat;
+  font-size:20px;
+  display: block;
+  padding: 8px;
+  margin-left:5px;
+}
+
+input.loc{
+  padding:10px;
+  background:url(search.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
+  border:1px solid white;
+}
+input.loc:hover{
+  box-shadow:0px 2px 2px white;
+}
+
+
+
+input[class='loc']::placeholder{
+  text-align:left;
+  color:white;
+}
+
+.mynav{
+  position: fixed;
+  z-index:5;
+  top:0;
+  width:100%;
+  background-color:#31363F;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px black;
+}
+.logo{
+  height:40px;
+}
+.pin{
+  height:37px;
+  cursor:pointer;
+}
+.leftnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.rightnav{
+  display:flex;
+  gap:25px;
+}
+
+.hdr{
+  font-weight:bolder;
+  font-family: Montserrat;
+  color: white;
+  letter-spacing:2px;
+  cursor:default;
+}
+.hdr:hover{
+  color:transparent;
+  font-size: 50px;
+  -webkit-text-stroke: 1px white;
+  transition-duration: 0.5s;
+}
+.map{
+  margin: 15px;
+  display:flex;
+  justify-content: center;
+}
+

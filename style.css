@@ -191,6 +191,7 @@ input.loc{
   background-position: right;
   background-size: 30px;
   border:1px solid white;
+  color:white;
 }
 input.loc:hover{
   box-shadow:0px 2px 2px white;
